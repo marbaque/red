@@ -2,45 +2,30 @@
     background-color: white;
     position: relative;
     padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    align-items: center;
+    grid-gap: 10px;
 
     @media screen and (min-width: 700px) {
-        display: grid;
         grid-template-columns: repeat(3, minmax(0,1fr));
         justify-content: space-evenly;
         grid-gap: 20px;
-        align-items: center;
-    }
-    .boton-menu {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        color: #333;
-        padding: 5px 10px;
-        border: 3px solid #333;
-        font-weight: 700;
-        text-decoration: none;
-        background-color: white;
-        display: inline-block;
-        border-radius: 5px;
-        &:hover {
-            box-shadow: -10px 10px 0 #333;
-            background-color: #333;
-            color: white;
-            border-color: white;
 
-        }
-        @media screen and (min-width: 700px) {
-            display: none;
-        }
     }
+
     .branding {
-        grid-column: 1 / span 1;
+        grid-column: 1 / span 2;
         align-content: center;
+
+        @media screen and (min-width: 700px) {
+            grid-column: 1 / span 1;
+        }
 
         .site-title {
             display: block;
-            width: 60%;
-            max-width: 400px;
+            width: 100%;
+            max-width: 320px;
             min-width: 180px;
             height: auto;
             border: none;
@@ -53,39 +38,91 @@
         }
 
     }
-    .main-menu {
-        display: none;
-        grid-column: auto / span 2;
+    .responsive-navigation {
+        grid-column: 4 / span 1;
         font-size: 80%;
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        @media screen and (min-width: 700px) {
+            grid-column: auto / span 2;
+            height: auto;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .boton-menu {
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+            font-weight: 700;
+            text-decoration: none;
+            background-color: white;
+            display: inline-block;
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+
+            &.submenuToggled-on {
+                background-color: silver;
+                color: white;
+                border-color: white;
+
+            }
+
+            @media screen and (min-width: 700px) {
+                display: none;
+            }
+        }
+
 
         ul {
-            width: 100%;
-            display: block;
+            position: absolute;
+            top: calc(100% + 10px);
+            right: -20px;
+            width: 100vw;
+            background-color: white;
+            z-index: 999;
+
             padding: 0;
             margin: 0;
             list-style: none;
             text-align: center;
+            display: none;
+            font-size: 1.25em;
             li {
                 a {
                     display: inline-block;
                     margin-bottom: 1em;
                     text-decoration: none;
                     color: #333;
-                    //letter-spacing: -0.75px;
                     &.active {
                         border-color: orange;
                     }
                 }
             }
+
+            &.submenuToggled-on {
+                display: block;
+            }
+
         }
 
         @media screen and (min-width: 700px) {
-            display: block;
+            .submenu {
+                width: 100%;
+            }
             ul {
+                position: relative;
+                width: 100%;
                 display: inline-flex;
                 justify-content: flex-end;
+                font-size: 1em;
+
                 li {
                     margin: 0 20px;
+                    display: inline-flex;
                     a {
                         padding: 0;
                         margin: 0;
@@ -95,4 +132,8 @@
             }
         }
     }
+}
+
+.submenuToggled-on {
+    display: block;
 }

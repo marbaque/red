@@ -12,23 +12,32 @@
       <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
       <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
       <link rel="shortcut icon" type="image/png" href="favicon/favicon-16x16.png"/>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+      <script src="js/nav.js"></script>
     </head>
 
     <body>
         <div class="wrapper">
 
             <header class="header">
-                <a href="#" class="boton-menu">Menu</a>
+                <!-- <a href="#" class="boton-menu">Menu</a> -->
                 <div class="branding">
                     <a href="index.html" class="site-title"><img src="img/logo-lg.svg" alt="Logo de Red de Investigación. Educación, tecnología e innovación."></a>
                     <p>Vicerrectoría de Investigación</p>
                 </div>
-                <nav class="main-menu" role="navigation">
-                    <ul>
-                        <li><a href="index.html" title="Página de inicio y nodos de la red" class="active">Nodos</a></li>
-                        <li><a href="red-investigacion.html" title="Página de información acerca de la Red de Investigación">Acerca de</a></li>
-                        <li><a href="actividad.html" title="Actualizaciones y actividad de los nodos que forman parte de la Red">Actividad</a></li>
-                    </ul>
+                <nav id="responsive-navigation" class="responsive-navigation" role="navigation">
+
+                    <button class="boton-menu submenu-toggle">Menú</button>
+
+                    <div class="submenu nav-submenu">
+                        <ul>
+                            <li><a href="index.html" title="Página de inicio y nodos de la red" class="active">Nodos</a></li>
+                            <li><a href="red-investigacion.html" title="Página de información acerca de la Red de Investigación">Acerca de</a></li>
+                            <li><a href="actividad.html" title="Actualizaciones y actividad de los nodos que forman parte de la Red">Actividad</a></li>
+                        </ul>
+                    </div>
+
                 </nav>
             </header>
 
