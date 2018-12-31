@@ -126,6 +126,18 @@ body {
             font-size: 60%;
             color: siver;
         }
+        h3.gente {
+            text-align: center;
+            &:before {
+                content: "";
+                width: 80px;
+                height: 80px;
+                background: url(img/gente.svg) no-repeat center center;
+                display: block;
+                margin: 0 auto;
+                background-size: contain;
+            }
+        }
 
         .lista {
             margin: 40px 0;
@@ -135,7 +147,7 @@ body {
                 grid-template-columns: repeat(8, minmax(0,1fr));
                 justify-content: space-evenly;
                 align-items: flex-start;
-                grid-gap: 10px;
+                grid-gap: 20px;
             }
 
 
@@ -143,7 +155,6 @@ body {
                 grid-column: auto /span 4;
                 margin-bottom: 20px;
                 //border: 1px solid #333;
-                padding: 20px;
                 font-size: 90%;
             }
             .pic {
