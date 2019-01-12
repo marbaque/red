@@ -13,8 +13,63 @@
       <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
       <link rel="shortcut icon" type="image/png" href="favicon/favicon-16x16.png"/>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-      <script src="js/nav.js"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+      <script src="js/nav.js"></script> -->
+
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+      <script type="text/javascript" src="js/jquery.social.stream.wall.1.8.js"></script>
+      <script type="text/javascript" src="js/jquery.social.stream.1.6.2.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/dcsns_wall.css" media="all" />
+
+      <script type="text/javascript">
+      jQuery(document).ready(function($){
+      	$('#social-stream').dcSocialStream({
+      		feeds: {
+      			twitter: {
+      				id: 'observatecedu'
+      			},
+      			rss: {
+      				id: 'http://observatoriotecedu.uned.ac.cr/feed/',
+      				out: 'intro,thumb,text,share'
+      			},
+      			facebook: {
+      				id: '872058646181882',
+      				out: 'intro,thumb,text,user,share'
+      			},
+      			// youtube: {
+      			// 	id: 'FilmTrailerZone/UUPPPrnT5080hPMxK1N4QSjA',
+      			// 	thumb: 'medium',
+      			// 	out: 'intro,thumb,title,user,share'
+      			// },
+      			instagram: {
+      				id: '!3181848609',
+      				accessToken: '186786085.91dbf99.da4d8fab71544cdba8645bd0a02f07a1'
+      			}
+      		},
+      		rotate: {
+      			delay: 0
+      		},
+            style: {
+            	layout: 'modern',
+            	colour: 'light'
+            },
+
+            //twitterId: 'observatecedu',
+      		control: false,
+      		filter: true,
+      		wall: true,
+      		center: true,
+      		cache: false,
+      		max: 'limit',
+      		limit: 3,
+      		iconPath: 'images/dcsns-dark/',
+      		imagePath: 'images/dcsns-dark/'
+      	});
+
+      });
+      </script>
+
     </head>
 
     <body>
@@ -49,11 +104,11 @@
                     </article>
                 </div>
 
-                <article class="pagina">
+                <div id="wall">
 
+                	<div id="social-stream"></div>
 
-
-                </article>
+                </div>
 
             </main>
 
