@@ -324,12 +324,11 @@ body {
 .iconos {
   width: 100vw;
   height: auto;
-  background: url(img/iconos-noticias.jpg) repeat fixed; }
+  background: url(img/iconos.jpg) repeat fixed; }
   .iconos h1 {
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
-    margin: 80px 0; }
+    margin: 20px 0 0; }
 
 .footer {
   font-size: 80%;
@@ -345,7 +344,7 @@ body {
       color: currentColor; }
 
 #wall {
-  background: rgba(214, 218, 233, 0.5); }
+  background: url(img/iconos.jpg) repeat fixed; }
   #wall a {
     border: none; }
 

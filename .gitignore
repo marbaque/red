@@ -1,0 +1,13 @@
+# Don't track content of these folders
+.sass-cache/
+private/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

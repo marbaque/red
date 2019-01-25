@@ -1,6 +1,7 @@
 <?php
 require_once('private/credenciales.php');
 
+
 // DO NOT EDIT BELOW THIS LINE
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);

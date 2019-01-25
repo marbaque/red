@@ -28,36 +28,52 @@
       		feeds: {
       			twitter: {
       				id: 'observatecedu',
-                    images: 'small',
+                    intro: 'Tweeted',
+                    search: 'Tweeted',
+                    out: 'intro,text,share',
+                    retweets: true,
+                    replies: false,
+                    images: 'small', // large w: 786 h: 346, thumb w: 150 h: 150, medium w: 600 h: 264, small w: 340 h 150
                     url: 'twitter.php',
-                    out: 'intro,date,text,share',
+                    icon: 'twitter.png'
+      			},
+                instagram: {
+      				id: '!3181848609',
+      				accessToken: '3181848609.1677ed0.2a62347016ca465ebae1ff8e90f58728'
       			},
       			rss: {
       				id: 'http://observatoriotecedu.uned.ac.cr/feed/',
       				out: 'intro,thumb,text',
                     url: 'rss.php'
       			},
-      			facebook: {
-      				id: '294550617298149',
-      				out: 'intro,thumb,text,user,share',
-                    url: 'facebook.php'
-      			},
-      			// youtube: {
-      			// 	id: 'FilmTrailerZone/UUPPPrnT5080hPMxK1N4QSjA',
-      			// 	thumb: 'medium',
-      			// 	out: 'intro,thumb,title,user,share'
-      			// },
-      			instagram: {
-      				id: '!3181848609',
-      				accessToken: '3181848609.1677ed0.2a62347016ca465ebae1ff8e90f58728'
-      			}
+                facebook: {
+                    id: '294550617298149',
+                    intro: 'Posted',
+                    out: 'intro,thumb,title,text,user,share',
+                    comments: 3,
+                    image_width: 6, //3 = 600 4 = 480 5 = 320 6 = 180
+                    url: 'facebook.php',
+                    thumb:true,
+                    icon: 'facebook.png'
+                },
+                youtube: {
+                    id: 'katrare.uned/UCuvHgkhSogZ0OQYad1fMtmA',
+                    intro: 'Uploaded',
+                    profile: '',
+                    search: 'Search',
+                    out: 'intro,thumb,title,text,user,share',
+                    api_key: 'AIzaSyBJ_KpI6wVRI89OW9sgLQrpeOdmRpHLVj0',
+                    thumb: 'medium',
+                    icon: 'youtube.png'
+                },
+
       		},
       		rotate: {
       			delay: 0
       		},
             style: {
             	layout: 'modern',
-            	colour: 'dark'
+            	colour: 'light'
             },
 
             //twitterId: 'observatecedu',
