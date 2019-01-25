@@ -15,8 +15,6 @@ body {
 
 @import 'sass/header';
 
-
-
 .content {
     width: 100%;
 
@@ -209,7 +207,6 @@ body {
     width: 100vw;
     height: auto;
     background: url(img/iconos-noticias.jpg) repeat fixed;
-
     h1 {
         color: white;
         text-shadow:
@@ -235,11 +232,13 @@ body {
         a {
             border-width: 0;
             color: currentColor;
+
         }
     }
 }
 
 #wall {
+    background: rgba(214,218,233,0.5);
     a {
         border: none;
     }

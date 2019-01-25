@@ -27,15 +27,20 @@
       	$('#social-stream').dcSocialStream({
       		feeds: {
       			twitter: {
-      				id: 'observatecedu'
+      				id: 'observatecedu',
+                    images: 'small',
+                    url: 'twitter.php',
+                    out: 'intro,date,text,share',
       			},
       			rss: {
       				id: 'http://observatoriotecedu.uned.ac.cr/feed/',
-      				out: 'intro,thumb,text,share'
+      				out: 'intro,thumb,text',
+                    url: 'rss.php'
       			},
       			facebook: {
-      				id: '872058646181882',
-      				out: 'intro,thumb,text,user,share'
+      				id: '294550617298149',
+      				out: 'intro,thumb,text,user,share',
+                    url: 'facebook.php'
       			},
       			// youtube: {
       			// 	id: 'FilmTrailerZone/UUPPPrnT5080hPMxK1N4QSjA',
@@ -44,7 +49,7 @@
       			// },
       			instagram: {
       				id: '!3181848609',
-      				accessToken: '186786085.91dbf99.da4d8fab71544cdba8645bd0a02f07a1'
+      				accessToken: '3181848609.1677ed0.2a62347016ca465ebae1ff8e90f58728'
       			}
       		},
       		rotate: {
@@ -52,7 +57,7 @@
       		},
             style: {
             	layout: 'modern',
-            	colour: 'light'
+            	colour: 'dark'
             },
 
             //twitterId: 'observatecedu',
@@ -62,9 +67,10 @@
       		center: true,
       		cache: false,
       		max: 'limit',
-      		limit: 3,
+      		limit: 10,
+            transition:	'0.5s',
       		iconPath: 'images/dcsns-dark/',
-      		imagePath: 'images/dcsns-dark/'
+      		imagePath: 'images/dcsns-dark/',
       	});
 
       });
@@ -87,9 +93,9 @@
 
                     <div class="submenu nav-submenu">
                         <ul>
-                            <li><a href="index.html" title="Página de inicio y nodos de la red" class="active">Nodos</a></li>
+                            <li><a href="index.html" title="Página de inicio y nodos de la red">Nodos</a></li>
                             <li><a href="red-investigacion.html" title="Página de información acerca de la Red de Investigación">Acerca de</a></li>
-                            <li><a href="actividad.html" title="Actualizaciones y actividad de los nodos que forman parte de la Red">Actividad</a></li>
+                            <li><a href="actividad.html" class="active" title="Actualizaciones y actividad de los nodos que forman parte de la Red">Actividad</a></li>
                         </ul>
                     </div>
 

@@ -24,9 +24,10 @@
 
         a.site-title {
             display: block;
-            width: 100%;
-            max-width: 320px;
-            min-width: 180px;
+            width: 80%;
+            overflow: hidden;
+            max-width: 200px;
+            min-width: 160px;
             height: auto;
             border: none;
             padding: 10px 0 0;

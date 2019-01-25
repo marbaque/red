@@ -91,9 +91,10 @@ body {
         grid-column: 1 / span 1; } }
     .header .branding a.site-title {
       display: block;
-      width: 100%;
-      max-width: 320px;
-      min-width: 180px;
+      width: 80%;
+      overflow: hidden;
+      max-width: 200px;
+      min-width: 160px;
       height: auto;
       border: none;
       padding: 10px 0 0; }
@@ -343,7 +344,9 @@ body {
       border-width: 0;
       color: currentColor; }
 
-#wall a {
-  border: none; }
+#wall {
+  background: rgba(214, 218, 233, 0.5); }
+  #wall a {
+    border: none; }
 
 /*# sourceMappingURL=grid.css.map */
