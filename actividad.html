@@ -43,13 +43,14 @@
       			},
       			rss: {
       				id: 'http://observatoriotecedu.uned.ac.cr/feed/',
-      				out: 'intro,thumb,text',
+                    thumb: true,
+      				out: 'thumb,text',
                     url: 'rss.php'
       			},
                 facebook: {
-                    id: '294550617298149',
-                    intro: 'Posted',
-                    out: 'intro,thumb,title,text,user,share',
+                    id: '294550617298149,1629133513998400',
+                    intro: 'Publicado',
+                    out: 'intro,thumb,title,text,user',
                     comments: 3,
                     image_width: 6, //3 = 600 4 = 480 5 = 320 6 = 180
                     url: 'facebook.php',
@@ -83,7 +84,7 @@
       		center: true,
       		cache: false,
       		max: 'limit',
-      		limit: 10,
+      		limit: 12,
             transition:	'0.5s',
       		iconPath: 'images/dcsns-dark/',
       		imagePath: 'images/dcsns-dark/',

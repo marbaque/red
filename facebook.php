@@ -6,7 +6,7 @@ require_once('private/credenciales.php');
 ini_set('display_errors', '0');
 error_reporting(E_ALL | E_STRICT);
 
-$app_access_token = $app_id.'|'.$app_secret;
+$app_access_token = $my_access_token;
 $page_id = isset($_GET['id']) ? $_GET['id'] : '';
 $limit = isset($_GET['limit']) ? $_GET['limit'] : 20;
 $limit = $limit > 50 ? 50 : $limit;
