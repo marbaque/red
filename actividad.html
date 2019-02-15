@@ -26,17 +26,17 @@
       jQuery(document).ready(function($){
       	$('#social-stream').dcSocialStream({
       		feeds: {
-      			twitter: {
-      				id: 'observatecedu',
-                    intro: 'Tweeted',
-                    search: 'Tweeted',
-                    out: 'intro,text,share',
-                    retweets: true,
-                    replies: false,
-                    images: 'small', // large w: 786 h: 346, thumb w: 150 h: 150, medium w: 600 h: 264, small w: 340 h 150
-                    url: 'twitter.php',
-                    icon: 'twitter.png'
-      			},
+      			// twitter: {
+      			// 	id: 'observatecedu',
+                //     intro: 'Tweeted',
+                //     search: 'Tweeted',
+                //     out: 'intro,text,share',
+                //     retweets: true,
+                //     replies: false,
+                //     images: 'small', // large w: 786 h: 346, thumb w: 150 h: 150, medium w: 600 h: 264, small w: 340 h 150
+                //     url: 'twitter.php',
+                //     icon: 'twitter.png'
+      			// },
                 instagram: {
       				id: '!3181848609',
       				accessToken: '3181848609.1677ed0.2a62347016ca465ebae1ff8e90f58728'
@@ -44,11 +44,11 @@
       			rss: {
       				id: 'http://observatoriotecedu.uned.ac.cr/feed/',
                     thumb: true,
-      				out: 'thumb,text',
+      				out: 'thumb,title,share',
                     url: 'rss.php'
       			},
                 facebook: {
-                    id: '294550617298149,1629133513998400',
+                    id: '294550617298149',
                     intro: 'Publicado',
                     out: 'intro,thumb,title,text,user',
                     comments: 3,
@@ -58,7 +58,7 @@
                     icon: 'facebook.png'
                 },
                 youtube: {
-                    id: 'katrare.uned/UCuvHgkhSogZ0OQYad1fMtmA',
+                    id: 'katrare.uned/UCuvHgkhSogZ0OQYad1fMtmA,#Laboratorio de Investigación e Innovación Tecnológica LIIT, #UNED Andrés Segura',
                     intro: 'Uploaded',
                     profile: '',
                     search: 'Search',
@@ -77,7 +77,7 @@
             	colour: 'light'
             },
 
-            //twitterId: 'observatecedu',
+            twitterId: 'observatecedu',
       		control: false,
       		filter: true,
       		wall: true,
