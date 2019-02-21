@@ -137,9 +137,7 @@ body {
     }
 
     .item {
-
         @extend .bg-blue;
-
         display: flex;
         align-items: flex-end;
 
@@ -148,7 +146,7 @@ body {
             border-left: 4px solid white;
             padding: 1rem;
             min-width: 89vw;
-            height: 70vh;
+            height: 90vh;
             scroll-snap-align: center;
         }
         @media screen and (min-width: 700px) {
