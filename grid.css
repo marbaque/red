@@ -563,7 +563,7 @@ body {
     .projects .item {
       border-right: 4px solid white;
       border-left: 4px solid white;
-      padding: 1rem;
+      padding: 0 1em;
       min-width: 89vw;
       height: 90vh;
       scroll-snap-align: center; } }
