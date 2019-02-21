@@ -557,11 +557,12 @@ body {
   align-items: flex-end; }
   @media screen and (max-width: 700px) {
     .projects .item {
-      border-right: 10px solid white;
+      border-right: 4px solid white;
+      border-left: 4px solid white;
       padding: 1rem;
-      min-width: 90vw;
-      height: 80vh;
-      scroll-snap-align: start; } }
+      min-width: 89vw;
+      height: 70vh;
+      scroll-snap-align: center; } }
   @media screen and (min-width: 700px) {
     .projects .item {
       grid-column: auto / span 1;
