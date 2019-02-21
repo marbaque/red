@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <title>Red de Investigación</title>
+      <meta name="description" content="Red de Investigación">
+      <meta name="author" content="Universidad Estatal a Distancia">
+      <link rel="stylesheet" href="normalize.css?v=8.0.1">
+      <link rel="stylesheet" href="grid.css?v=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+      <link rel="shortcut icon" type="image/png" href="favicon/favicon-16x16.png"/>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+      <script src="js/nav.js"></script>
+      <style media="screen">
+      .containerx {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+
+        border: 2px solid var(--gs0);
+        border-radius: 8px;
+        height: 33vh;
+        }
+
+        .containerx div {
+        scroll-snap-align: start;
+
+        height: 33vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        }
+        .container div:nth-child(1) {
+        background: hotpink;
+        color: white;
+        }
+        .containerx div:nth-child(2) {
+        background: azure;
+        }
+        .containerx div:nth-child(3) {
+        background: blanchedalmond;
+        }
+        .containerx div:nth-child(4) {
+        background: lightcoral;
+        color: white;
+        }
+      </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <header class="header fixed">
+
+                <div class="branding">
+                    <a href="index.html" class="site-title"><img src="img/logo-red.svg" alt="Red de Investigación"></a>
+                    <p>Vicerrectoría de Investigación</p>
+                </div>
+
+                <nav id="responsive-navigation" class="responsive-navigation" role="navigation">
+
+                    <button class="boton-menu submenu-toggle">Menú</button>
+
+                    <div class="submenu nav-submenu">
+                        <ul>
+                            <li><a href="index.html" title="Página de inicio y nodos de la red" class="active">Nodos</a></li>
+                            <li><a href="red-investigacion.html" title="Página de información acerca de la Red de Investigación">Acerca de</a></li>
+                            <li><a href="actividad.html" title="Actualizaciones y actividad de los nodos que forman parte de la Red">Actividad</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </header>
+
+            <div class="containerx">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+
+            <footer class="footer" role="contentinfo">
+                <p>
+                    Red de Investigación |
+                    <a href="https://investiga.uned.ac.cr/">Vicerrectoría de Investigación</a> |
+                    <a href="https://www.uned.ac.cr/">Universidad Estatal a Distancia</a>
+                </p>
+                <p class="licencia">
+                    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cr/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a>  <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title">Red de Investigación</span> por <a xmlns:cc="https://creativecommons.org/ns#" href="https://www.uned.ac.cr/" property="cc:attributionName" rel="cc:attributionURL">Universidad Estatal a Distancia</a> se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cr/">Licencia Atribución-NoComercial-CompartirIgual 3.0 Costa Rica</a>.
+		          </p>
+            </footer>
+
+        </div>
+        <script type="text/javascript">
+           var projects = document.querySelector('.projects');
+           for (var i = projects.children.length; i >= 0; i--) {
+           projects.appendChild(projects.children[Math.random() * i | 0]);
+           }
+       </script>
+    </body>
+</html>

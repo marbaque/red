@@ -1,7 +1,7 @@
 /*
  * DC jQuery Social Stream
  * Copyright (c) 2013 Design Chemical
- * http://www.designchemical.com/blog/index.php/premium-jquery-plugins/jquery-social-stream-plugin/
+ * https://www.designchemical.com/blog/index.php/premium-jquery-plugins/jquery-social-stream-plugin/
  * Version 1.6.2 (10-07-2017)
  *
  */
@@ -421,14 +421,14 @@
 			
 			case 'delicious':
 			href = 'https://www.delicious.com/'+id;
-			url = 'http://feeds.delicious.com/v2/json/'+id;
+			url = 'https://feeds.delicious.com/v2/json/'+id;
 			break;
 			
 			case 'pinterest':
 			var cp = id.split('/');
 			url = 'https://www.pinterest.com/'+id;
 			var curl = o.url.replace(/\&#038;/gi, "&");
-			href = 'http://www.pinterest.com/'+id;
+			href = 'https://www.pinterest.com/'+id;
 			url = cp.length > 1 ? curl + '?id='+id+'&limit='+n+'&feed=board&type='+type : curl + '?id='+id+'&limit='+n+'&feed=user&type='+type;
 			break;
 
@@ -457,7 +457,7 @@
 			
 			case 'stumbleupon':
 			href = 'https://www.stumbleupon.com/stumbler/'+id;
-			url = frl + encodeURIComponent('http://rss.stumbleupon.com/user/'+id+'/'+feed);
+			url = frl + encodeURIComponent('https://rss.stumbleupon.com/user/'+id+'/'+feed);
 			break;
 			
 			case 'deviantart':
@@ -466,8 +466,8 @@
 			break;
 			
 			case 'tumblr':
-			href = 'http://'+id+'.tumblr.com';
-			url = 'http://'+id+'.tumblr.com/api/read/json?callback=?&num='+n;
+			href = 'https://'+id+'.tumblr.com';
+			url = 'https://'+id+'.tumblr.com/api/read/json?callback=?&num='+n;
 			break;
 			
 			case 'instagram':
@@ -573,7 +573,7 @@
 												thumb = unescape(thumb.match(/url=([^&]+)/)[1]);
 											}
 										} 
-										thumb = thumb.replace(/^http:\/\//i, 'https://');
+										thumb = thumb.replace(/^https:\/\//i, 'https://');
 										y = '<a href="'+q+'"><img src="'+thumb+'" alt="" /></a>';
 									}
 									var pageName = item.pageName ;
@@ -933,17 +933,17 @@
 		text = text.replace(
 			/((https?\:\/\/)|(www\.))(\S+)(\w{2,4})(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/gi,
 			function(url){
-				var full_url = !url.match('^https?:\/\/') ? 'http://' + url : url ;
+				var full_url = !url.match('^https?:\/\/') ? 'https://' + url : url ;
 				return '<a href="' + full_url + '">' + url + '</a>';
 			}
 		);
 		if(type == 'twitter'){
-			text = text.replace(/(^|\s)@(\w+)/g, '$1@<a href="http://www.twitter.com/$2">$2</a>');
-			text = text.replace(/(^|\s)#(\w+)/g, '$1#<a href="http://twitter.com/search/%23$2">$2</a>');
+			text = text.replace(/(^|\s)@(\w+)/g, '$1@<a href="https://www.twitter.com/$2">$2</a>');
+			text = text.replace(/(^|\s)#(\w+)/g, '$1#<a href="https://twitter.com/search/%23$2">$2</a>');
 		} else if(type == 'facebook'){
 		
 			text = text.replace(/<\/br>/g, ' ');
-			text = text.replace(/(^|\s)#(\w+)/g, '$1#<a href="http://facebook.com/hashtag/%23$2">$2</a>');
+			text = text.replace(/(^|\s)#(\w+)/g, '$1#<a href="https://facebook.com/hashtag/%23$2">$2</a>');
 		}
 		return text;
 	}
@@ -1091,7 +1091,7 @@
 				} else {
 					if(image.indexOf('safe_image.php') == -1) {
 						var id = image.split("_"), object_id = id[1];
-						image = 'http://graph.facebook.com/'+object_id+'/picture?type=normal';
+						image = 'https://graph.facebook.com/'+object_id+'/picture?type=normal';
 					}
 				}
 				image = image.replace("_s.jpg", "_b.jpg");
@@ -1105,7 +1105,7 @@
 					image = unescape(image.match(/src=([^&]+)/)[1]);
 				}
 				if(this.prefix == 'https://'){
-					var image_tmp = image.replace('http://', 'https://');
+					var image_tmp = image.replace('https://', 'https://');
 					image = image_tmp;
 				}
 			} else {
@@ -1176,7 +1176,7 @@
 
 		function flickrHrefLink(id,obj){
 			jQuery.ajax({
-				url: 'http://api.flickr.com/services/feeds/groups_pool.gne?id='+id+'&format=json&jsoncallback=?',
+				url: 'https://api.flickr.com/services/feeds/groups_pool.gne?id='+id+'&format=json&jsoncallback=?',
 				dataType: 'jsonp',
 				success: function(a){
 					$('.icon',obj).each(function(){
@@ -1188,10 +1188,10 @@
 		
 		function share(st,sq,twitterId){
 			var s = '', sq = encodeURIComponent(sq), st = encodeURIComponent(st);
-			s = '<a href="http://www.facebook.com/sharer.php?u='+sq+'&t='+st+'" class="share-facebook" target="_blank"></a>';
+			s = '<a href="https://www.facebook.com/sharer.php?u='+sq+'&t='+st+'" class="share-facebook" target="_blank"></a>';
 			s += '<a href="https://twitter.com/share?url='+sq+'&text='+st+'&via='+twitterId+'" class="share-twitter" target="_blank"></a>';
 			s += '<a href="https://plus.google.com/share?url='+sq+'" class="share-google" target="_blank"></a>';
-			s += '<a href="http://www.linkedin.com/shareArticle?mini=true&url='+sq+'&title='+st+'" class="share-linkedin" target="_blank"></a>';
+			s += '<a href="https://www.linkedin.com/shareArticle?mini=true&url='+sq+'&title='+st+'" class="share-linkedin" target="_blank"></a>';
 			return s;
         }
 })(jQuery);

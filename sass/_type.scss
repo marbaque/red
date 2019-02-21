@@ -73,8 +73,10 @@ a {
     font-weight: 700;
     text-decoration: none;
     border-bottom: 2px solid cyan;
+	@extend .border--aqua;
+	transition: all 0.2s;
 
     &:hover, &:active {
-        border-color: orange;
+        @extend .border--orange;
     }
 }

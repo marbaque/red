@@ -20,7 +20,7 @@ if($type == 'pinterest')
 	}
 } else {
 
-	$feed_url = 'http://' . $page_id;
+	$feed_url = 'https://' . $page_id;
 	
 }
 
@@ -43,7 +43,7 @@ foreach($items as $item) {
    
 //   $clear = trim(preg_replace('/ +/', ' ', preg_replace('/[^A-Za-z0-9 ]/', ' ', urldecode(html_entity_decode(strip_tags($text))))));
 
-	$clear = trim(preg_replace('/ +/', ' ', preg_replace('[^A-Za-z0-9áéíóúÁÉÍÓÚ]', ' ', urldecode(html_entity_decode(strip_tags($text))))));
+	$clear = trim(preg_replace('/ +/', ' ', preg_replace('[^A-Za-z0-9ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]', ' ', urldecode(html_entity_decode(strip_tags($text))))));
    
  //  $clear = trim(preg_replace('/ +/', ' ', preg_replace('/[^A-Za-z0-9\p{L}\s\p{N}\'\.\ ]+/u', ' ', urldecode(html_entity_decode(strip_tags($text))))));
    

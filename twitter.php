@@ -40,7 +40,7 @@ if( isset( $get->errors ) ) {
 }
 
 /*
- * Abraham Williams (abraham@abrah.am) http://abrah.am
+ * Abraham Williams (abraham@abrah.am) https://abrah.am
  * The first PHP Library to support OAuth for Twitter's REST API.
  */
 
@@ -48,7 +48,7 @@ if( isset( $get->errors ) ) {
  * Twitter OAuth class
  */
 class TwitterOAuth {
-  /* Contains the last HTTP status code returned. */
+  /* Contains the last https status code returned. */
   public $http_code;
   /* Contains the last API call. */
   public $url;
@@ -64,7 +64,7 @@ class TwitterOAuth {
   public $format = 'json';
   /* Decode returned json data. */
   public $decode_json = false;
-  /* Contains the last HTTP headers returned. */
+  /* Contains the last https headers returned. */
   public $http_info;
   /* Set the useragnet. */
   public $useragent = 'TwitterOAuth v0.2.0-beta2';
@@ -207,25 +207,25 @@ class TwitterOAuth {
    * Format and sign an OAuth / API request
    */
   function oAuthRequest($url, $method, $parameters) {
-    if (strrpos($url, 'https://') !== 0 && strrpos($url, 'http://') !== 0) {
+    if (strrpos($url, 'https://') !== 0 && strrpos($url, 'https://') !== 0) {
       $url = "{$this->host}{$url}.{$this->format}";
     }
     $request = OAuthRequest::from_consumer_and_token($this->consumer, $this->token, $method, $url, $parameters);
     $request->sign_request($this->sha1_method, $this->consumer, $this->token);
     switch ($method) {
     case 'GET':
-      return $this->http($request->to_url(), 'GET');
+      return $this->https($request->to_url(), 'GET');
     default:
-      return $this->http($request->get_normalized_http_url(), $method, $request->to_postdata());
+      return $this->https($request->get_normalized_http_url(), $method, $request->to_postdata());
     }
   }
 
   /**
-   * Make an HTTP request
+   * Make an https request
    *
    * @return API results
    */
-  function http($url, $method, $postfields = NULL) {
+  function https($url, $method, $postfields = NULL) {
     $this->http_info = array();
     $ci = curl_init();
     /* Curl settings */
@@ -441,7 +441,7 @@ abstract class OAuthSignatureMethod_RSA_SHA1 extends OAuthSignatureMethod {
 
   // Up to the SP to implement this lookup of keys. Possible ideas are:
   // (1) do a lookup in a table of trusted certs keyed off of consumer
-  // (2) fetch via http using a url provided by the requester
+  // (2) fetch via https using a url provided by the requester
   // (3) some sort of specific discovery code based on request
   //
   // Either way should return a string representation of the certificate
@@ -516,7 +516,7 @@ class OAuthRequest {
    */
   public static function from_request($http_method=NULL, $http_url=NULL, $parameters=NULL) {
     $scheme = (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on")
-              ? 'http'
+              ? 'https'
               : 'https';
     @$http_url or $http_url = $scheme .
                               '://' . $_SERVER['HTTP_HOST'] .
@@ -643,7 +643,7 @@ class OAuthRequest {
   }
 
   /**
-   * just uppercases the http method
+   * just uppercases the https method
    */
   public function get_normalized_http_method() {
     return strtoupper($this->http_method);
@@ -664,7 +664,7 @@ class OAuthRequest {
     $port or $port = ($scheme == 'https') ? '443' : '80';
 
     if (($scheme == 'https' && $port != '443')
-        || ($scheme == 'http' && $port != '80')) {
+        || ($scheme == 'https' && $port != '80')) {
       $host = "$host:$port";
     }
     return "$scheme://$host$path";
@@ -1070,7 +1070,7 @@ class OAuthUtil {
       foreach ($_SERVER as $key => $value) {
         if (substr($key, 0, 5) == "HTTP_") {
           // this is chaos, basically it is just there to capitalize the first
-          // letter of every word that is not an initial HTTP and strip HTTP
+          // letter of every word that is not an initial https and strip https
           // code from przemek
           $key = str_replace(
             " ",
