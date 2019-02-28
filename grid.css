@@ -502,7 +502,7 @@ body {
     .content .pagina h3.gente {
       text-align: center; }
       .content .pagina h3.gente:before {
-        content: "";
+        content: " ";
         width: 80px;
         height: 80px;
         background: url(img/gente.svg) no-repeat center center;

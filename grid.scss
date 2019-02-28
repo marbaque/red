@@ -61,7 +61,7 @@ body {
         h3.gente {
             text-align: center;
             &:before {
-                content: "";
+                content: " ";
                 width: 80px;
                 height: 80px;
                 background: url(img/gente.svg) no-repeat center center;
