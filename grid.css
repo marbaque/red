@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\000037}}
 body,
 button,
 input,
@@ -9,6 +10,7 @@ textarea {
   font-size: 1.08rem;
   line-height: 1.5; }
   @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\000037}}
     body,
     button,
     input,
@@ -17,6 +19,7 @@ textarea {
       font-size: 20.25px;
       font-size: 1.35rem; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000322}}
 h1, h2, h3, h4, h5, h6 {
   margin-top: .75em;
   margin-bottom: .25em;
@@ -25,34 +28,44 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1.1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000331}}
 h1 {
   font-size: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000335}}
 h2 {
   font-size: 1.8em; }
 
 @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000341}}
   h1 {
     font-size: 3em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000345}}
   h2 {
     font-size: 2.6em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000350}}
 h3 {
   font-size: 2.2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000354}}
 h4 {
   font-size: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000358}}
 h5 {
   font-size: 1.8em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000362}}
 h6 {
   font-size: 1.6em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000366}}
 p {
   margin-top: .5em;
   margin-bottom: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_type\.scss}line{font-family:\0000371}}
 a {
   color: #333;
   font-weight: 700;
@@ -86,106 +99,140 @@ a {
 
 */
 /* Backgrounds */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000327}}
 .bg-navy {
   background-color: #001F3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000328}}
 .bg-blue, .projects .item {
   background-color: #0074D9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000329}}
 .bg-aqua {
   background-color: #7FDBFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000330}}
 .bg-teal {
   background-color: #39CCCC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000331}}
 .bg-olive {
   background-color: #3D9970; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000332}}
 .bg-green {
   background-color: #2ECC40; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000333}}
 .bg-lime {
   background-color: #01FF70; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000334}}
 .bg-yellow {
   background-color: #FFDC00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000335}}
 .bg-orange, .projects .item .info-proyecto a.ver-mas:hover {
   background-color: #FF851B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000336}}
 .bg-red {
   background-color: #FF4136; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000337}}
 .bg-fuchsia {
   background-color: #F012BE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000338}}
 .bg-purple {
   background-color: #B10DC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000339}}
 .bg-maroon {
   background-color: #85144B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000340}}
 .bg-white, .projects .item .info-proyecto a.ver-mas {
   background-color: #FFFFFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000341}}
 .bg-gray {
   background-color: #AAAAAA; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000342}}
 .bg-silver {
   background-color: #DDDDDD; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000343}}
 .bg-black {
   background-color: #111111; }
 
 /* Colors */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000345}}
 .navy {
   color: #001F3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000346}}
 .blue {
   color: #0074D9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000347}}
 .aqua {
   color: #7FDBFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000348}}
 .teal {
   color: #39CCCC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000349}}
 .olive {
   color: #3D9970; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000350}}
 .green {
   color: #2ECC40; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000351}}
 .lime {
   color: #01FF70; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000352}}
 .yellow {
   color: #FFDC00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000353}}
 .orange, .projects .item .info-proyecto a.ver-mas {
   color: #FF851B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000354}}
 .red {
   color: #FF4136; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000355}}
 .fuchsia {
   color: #F012BE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000356}}
 .purple {
   color: #B10DC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000357}}
 .maroon {
   color: #85144B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000358}}
 .white, .projects .item .info-proyecto a.ver-mas:hover {
   color: #FFFFFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000359}}
 .silver {
   color: #DDDDDD; }
 
-.gray {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000360}}
+.gray, .fecha-mod {
   color: #AAAAAA; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000361}}
 .black {
   color: #111111; }
 
@@ -194,168 +241,222 @@ a {
    Use with another border utility that sets border-width and style 
    i.e .border { border-width: 1px); border-style: solid); }     
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000367}}
 .border--navy {
   border-color: #001F3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000368}}
 .border--blue {
   border-color: #0074D9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000369}}
 .border--aqua, a {
   border-color: #7FDBFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000370}}
 .border--teal {
   border-color: #39CCCC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000371}}
 .border--olive {
   border-color: #3D9970; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000372}}
 .border--green {
   border-color: #2ECC40; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000373}}
 .border--lime {
   border-color: #01FF70; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000374}}
 .border--yellow {
   border-color: #FFDC00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000375}}
 .border--orange, a:hover, a:active, .header .responsive-navigation ul li a.active {
   border-color: #FF851B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000376}}
 .border--red {
   border-color: #FF4136; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000377}}
 .border--fuchsia {
   border-color: #F012BE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000378}}
 .border--purple {
   border-color: #B10DC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000379}}
 .border--maroon {
   border-color: #85144B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000380}}
 .border--white {
   border-color: #FFFFFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000381}}
 .border--gray {
   border-color: #AAAAAA; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000382}}
 .border--silver {
   border-color: #DDDDDD; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000383}}
 .border--black {
   border-color: #111111; }
 
 /* Fills for SVG */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000385}}
 .fill-navy {
   fill: #001F3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000386}}
 .fill-blue {
   fill: #0074D9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000387}}
 .fill-aqua {
   fill: #7FDBFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000388}}
 .fill-teal {
   fill: #39CCCC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000389}}
 .fill-olive {
   fill: #3D9970; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000390}}
 .fill-green {
   fill: #2ECC40; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000391}}
 .fill-lime {
   fill: #01FF70; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000392}}
 .fill-yellow {
   fill: #FFDC00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000393}}
 .fill-orange {
   fill: #FF851B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000394}}
 .fill-red {
   fill: #FF4136; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000395}}
 .fill-fuchsia {
   fill: #F012BE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000396}}
 .fill-purple {
   fill: #B10DC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000397}}
 .fill-maroon {
   fill: #85144B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000398}}
 .fill-white {
   fill: #FFFFFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\0000399}}
 .fill-gray {
   fill: #AAAAAA; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003100}}
 .fill-silver {
   fill: #DDDDDD; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003101}}
 .fill-black {
   fill: #111111; }
 
 /* Strokes for SVG */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003103}}
 .stroke-navy {
   stroke: #001F3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003104}}
 .stroke-blue {
   stroke: #0074D9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003105}}
 .stroke-aqua {
   stroke: #7FDBFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003106}}
 .stroke-teal {
   stroke: #39CCCC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003107}}
 .stroke-olive {
   stroke: #3D9970; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003108}}
 .stroke-green {
   stroke: #2ECC40; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003109}}
 .stroke-lime {
   stroke: #01FF70; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003110}}
 .stroke-yellow {
   stroke: #FFDC00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003111}}
 .stroke-orange {
   stroke: #FF851B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003112}}
 .stroke-red {
   stroke: #FF4136; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003113}}
 .stroke-fuchsia {
   stroke: #F012BE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003114}}
 .stroke-purple {
   stroke: #B10DC9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003115}}
 .stroke-maroon {
   stroke: #85144B; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003116}}
 .stroke-white {
   stroke: #FFFFFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003117}}
 .stroke-gray {
   stroke: #AAAAAA; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003118}}
 .stroke-silver {
   stroke: #DDDDDD; }
 
-.stroke-black {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/colors\.scss}line{font-family:\00003119}}
+.stroke-black, .content .pagina hr {
   stroke: #111111; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\000034}}
 body {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\000039}}
 .wrapper {
   width: 100vw;
   margin: 0 auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\000031}}
 .header {
   background-color: white;
   padding: 10px 20px;
@@ -366,20 +467,25 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   z-index: 99; }
   @media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\000032}}
     .header.fixed {
       position: fixed;
       width: calc(100vw - 40px); } }
   @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\000031}}
     .header {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       justify-content: space-evenly;
       grid-gap: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000323}}
   .header .branding {
     grid-column: 1 / span 2;
     align-content: center; }
     @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000323}}
       .header .branding {
         grid-column: 1 / span 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000331}}
     .header .branding a.site-title {
       display: block;
       width: 80%;
@@ -389,14 +495,17 @@ body {
       height: auto;
       border: none;
       padding: 10px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000340}}
       .header .branding a.site-title img {
         object-fit: cover;
         width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000345}}
     .header .branding p {
       font-size: 0.8em;
       margin: 0;
       padding-left: 10%;
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000353}}
   .header .responsive-navigation {
     grid-column: 4 / span 1;
     font-size: 80%;
@@ -404,11 +513,13 @@ body {
     width: 100%;
     height: 100%; }
     @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000353}}
       .header .responsive-navigation {
         grid-column: auto / span 2;
         height: auto;
         display: table-cell;
         vertical-align: middle; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000367}}
     .header .responsive-navigation .boton-menu {
       color: #333;
       padding: 5px 10px;
@@ -420,13 +531,16 @@ body {
       border-radius: 5px;
       width: 100%;
       height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000379}}
       .header .responsive-navigation .boton-menu.submenuToggled-on {
         background-color: silver;
         color: white;
         border-color: white; }
       @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000367}}
         .header .responsive-navigation .boton-menu {
           display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\0000392}}
     .header .responsive-navigation ul {
       position: absolute;
       top: calc(100% + 10px);
@@ -440,17 +554,21 @@ body {
       text-align: center;
       display: none;
       font-size: 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003108}}
       .header .responsive-navigation ul li a {
         display: inline-block;
         margin-bottom: 1em;
         text-decoration: none;
         color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003120}}
       .header .responsive-navigation ul.submenuToggled-on {
         display: block; }
     @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003127}}
       .header .responsive-navigation .submenu {
         width: 100%;
         text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003131}}
       .header .responsive-navigation ul {
         position: relative;
         width: auto;
@@ -458,49 +576,77 @@ body {
         justify-content: flex-end;
         font-size: 1em;
         padding: 0 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003138}}
         .header .responsive-navigation ul li {
           margin: 0 20px;
           display: inline-flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003141}}
           .header .responsive-navigation ul li a {
             padding: 0;
             margin: 0;
             border-width: 3px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/sass\/_header\.scss}line{font-family:\00003152}}
 .submenuToggled-on {
   display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000321}}
 .content {
   width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000324}}
   .content .migajas {
     font-size: .7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000327}}
   .content .pagina {
     margin: 0 auto;
     max-width: 780px;
     padding: 40px 20px 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000332}}
     .content .pagina *::-moz-selection {
       background: orange; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000333}}
     .content .pagina *::selection {
       background: orange; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000335}}
     .content .pagina hr {
       margin: 60px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000339}}
     .content .pagina .top {
       width: auto;
-      max-height: 320px;
-      overflow: hidden;
+      height: auto;
       position: relative;
       margin: 0; }
       @media screen and (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000339}}
         .content .pagina .top {
           margin-left: -80px;
           margin-right: -80px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000351}}
       .content .pagina .top img {
         object-fit: cover;
-        width: 100%; }
+        width: 100%;
+        max-height: 480px;
+        overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000358}}
+      .content .pagina .top figcaption {
+        font-size: .6em;
+        font-style: italic;
+        text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000363}}
+        .content .pagina .top figcaption a {
+          border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000368}}
     .content .pagina .caption {
       font-size: 60%;
       color: siver; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000373}}
+    .content .pagina hr {
+      border-width: 3px;
+      border-style: solid; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000379}}
     .content .pagina h3.gente {
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000382}}
       .content .pagina h3.gente:before {
         content: " ";
         width: 80px;
@@ -509,19 +655,23 @@ body {
         display: block;
         margin: 0 auto;
         background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000393}}
     .content .pagina .lista {
       margin: 40px 0; }
       @media screen and (min-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\0000393}}
         .content .pagina .lista {
           display: grid;
           grid-template-columns: repeat(8, minmax(0, 1fr));
           justify-content: space-evenly;
           align-items: flex-start;
           grid-gap: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003105}}
       .content .pagina .lista .persona {
         grid-column: auto /span 4;
         margin-bottom: 20px;
         font-size: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003111}}
       .content .pagina .lista .pic {
         width: 128px;
         height: 128px;
@@ -530,25 +680,40 @@ body {
         margin: 0 auto;
         background: url(img/gente/default-user-image.png) center center no-repeat silver;
         background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003120}}
         .content .pagina .lista .pic img {
           width: 100%;
           object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003125}}
       .content .pagina .lista .info-personal {
         grid-column: auto / span 7;
         line-height: 1.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003129}}
         .content .pagina .lista .info-personal h4 {
           margin-top: 0.25em;
           font-size: 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003134}}
         .content .pagina .lista .info-personal p {
           margin-bottom: 0.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003138}}
+        .content .pagina .lista .info-personal p:nth-child(3) {
+          font-size: .9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003146}}
+.fecha-mod {
+  font-size: .8em;
+  text-align: center;
+  font-style: italic; }
 
 @media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003153}}
   .projects {
     scroll-snap-points-y: repeat(90vw);
     scroll-snap-type: x mandatory;
     display: flex;
     overflow-x: scroll; } }
 @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003153}}
   .projects {
     scroll-snap-type: none;
     display: grid;
@@ -556,10 +721,12 @@ body {
     grid-auto-flow: dense;
     overflow: auto;
     max-width: 100vw; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003171}}
 .projects .item {
   display: flex;
   align-items: flex-end; }
   @media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003171}}
     .projects .item {
       border-right: 4px solid white;
       border-left: 4px solid white;
@@ -568,15 +735,18 @@ body {
       height: 90vh;
       scroll-snap-align: center; } }
   @media screen and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003171}}
     .projects .item {
       grid-column: auto / span 1;
       height: 40vh;
       min-height: 300px;
       padding: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003191}}
   .projects .item .info-proyecto {
     z-index: 2;
     width: 90%;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003196}}
     .projects .item .info-proyecto h3 {
       font-size: 1.5rem;
       color: white;
@@ -585,20 +755,25 @@ body {
       background: rgba(0, 0, 0, 0.5);
       padding: 5px;
       white-space: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003206}}
     .projects .item .info-proyecto p.desc {
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003210}}
     .projects .item .info-proyecto a.ver-mas {
-      padding: 5px 10px;
-      border: none;
-      font-weight: 700;
-      text-decoration: none;
+      border-radius: 4px;
+      padding: .5em .75em;
       display: inline-block;
-      border-radius: 2px;
-      font-size: 1.1rem;
-      margin-left: 10px; }
+      text-align: left;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: .8;
+      position: relative;
+      transition: .2s transform; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003223}}
       .projects .item .info-proyecto a.ver-mas:hover {
-        box-shadow: -4px 4px 0 white;
-        text-indent: 20px; }
+        transform: translateY(-8px);
+        border-bottom: 8px solid #158983; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003231}}
   .projects .item .fuente {
     font-size: 10px;
     background: #333;
@@ -606,46 +781,60 @@ body {
     color: white;
     font-family: sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003244}}
 .item {
   background-size: cover;
   background-position: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003247}}
   .item.rea {
     background-image: url(img/proyectos/img1-lg-1200x926.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003250}}
   .item.liit {
     background-image: url(img/proyectos/liit-cuad.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003253}}
   .item.ml {
-    background-image: url(img/proyectos/img4-lg-1200x926.jpg); }
+    background-image: url(img/33809183120_f394d8024f_b.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003256}}
   .item.lr {
-    background-image: url(img/proyectos/img5-md.jpg); }
+    background-image: url(img/pruebas-remotas.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003259}}
   .item.oted {
     background-image: url(img/proyectos/img3-lg-1200x926.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003262}}
   .item.fl {
     background-image: url(img/proyectos/fablab-cuad.jpg); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003273}}
 .iconos {
   width: 100vw;
   height: auto;
   background: url(img/iconos.jpg) repeat fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003277}}
   .iconos h1 {
     color: white;
     text-align: center;
     margin: 20px 0 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003284}}
 .footer {
   font-size: 80%;
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid silver; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003290}}
   .footer .licencia {
     margin-top: 40px;
     font-size: 80%;
     color: silver; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003294}}
     .footer .licencia a {
       border-width: 0;
       color: currentColor; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003302}}
 #wall {
   background: url(img/iconos.jpg) repeat fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/red2019\/grid\.scss}line{font-family:\00003304}}
   #wall a {
     border: none; }
 
